@@ -1,5 +1,12 @@
 <?php
+//$html = file_get_contents('test.html');
 $html = file_get_contents(__DIR__.'/../templates/header.html');
+$html .= file_get_contents(__DIR__.'/../templates/logo-div.html');
+$html .= file_get_contents(__DIR__.'/../templates/menu-div.html');
+$html .= file_get_contents(__DIR__.'/../templates/hero-div.html');
+$html .= file_get_contents(__DIR__.'/../templates/body-01-div.html');
+
+/*
 $html .= '<h1>Welcome to the JS8Call-Improved Website</h1><hr>';
 
 $html .= '<div style="width: 840px;"><img src="img/js8call-2025-11-16.png" width="800" alt="JS8Call Improved Screenshot">
@@ -20,6 +27,7 @@ $html .= '<p></p><b>NOTE:</b> This website is currently under development. More 
 $html .= '</div>';
 
 
-
+*/
 $html .= file_get_contents(__DIR__.'/../templates/footer.html');
+
 echo $html;
