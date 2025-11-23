@@ -835,7 +835,7 @@ MainWindow::MainWindow(QString  const & program_info,
   auto clearActionSep = new QAction(nullptr);
   clearActionSep->setSeparator(true);
 
-  auto clearActionAll = new QAction(QString("Clear All"), nullptr);
+  auto clearActionAll = new QAction(QString("Clear All Lists"), nullptr);
   connect(clearActionAll, &QAction::triggered, this, [this](){
       if (QMessageBox::Yes != QMessageBox::question(this, "Clear All Activity", "Are you sure you would like to clear all activity?", QMessageBox::Yes|QMessageBox::No)){
           return;
@@ -1080,7 +1080,7 @@ MainWindow::MainWindow(QString  const & program_info,
 
 
 
-  auto clearAction4 = new QAction(QString("Clear"), ui->tableWidgetCalls);
+  auto clearAction4 = new QAction(QString("Clear Entire List"), ui->tableWidgetCalls);
   connect(clearAction4, &QAction::triggered, this, [this]()
   {
     clearCallActivity();
@@ -1325,7 +1325,7 @@ MainWindow::MainWindow(QString  const & program_info,
 
     menu->addAction(addStation);
     removeStation->setDisabled(missingCallsign);
-    removeStation->setText(selectedCall.startsWith("@") ? "Remove Group" : "Remove Station");
+    removeStation->setText(selectedCall.startsWith("@") ? "Remove This Group" : "Remove This Station");
     menu->addAction(removeStation);
 
     menu->addSeparator();
