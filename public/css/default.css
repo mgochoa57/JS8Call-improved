@@ -1,30 +1,113 @@
-// <weight>: Use a value from 100 to 900
-// <uniquifier>: Use a unique and descriptive class name
+/* <weight>: Use a value from 100 to 900 */
+/* <uniquifier>: Use a unique and descriptive class name */
 .roboto-slab {
-                  font-family: "Roboto Slab", serif;
-                  font-optical-sizing: auto;
-                  font-weight: <weight>;
-                  font-style: normal;
-              }
-// <weight>: Use a value from 100 to 900
-// <uniquifier>: Use a unique and descriptive class name
+    font-family: "Roboto Slab", serif;
+    /*font-optical-sizing: auto;*/
+    /*font-weight: <weight>;*/
+    font-style: normal;
+}
+/* <weight>: Use a value from 100 to 900 */
+/* <uniquifier>: Use a unique and descriptive class name */
 .roboto {
-             font-family: "Roboto", sans-serif;
-             font-optical-sizing: auto;
-             font-weight: <weight>;
-             font-style: normal;
-             font-variation-settings:
-                     "wdth" 100;
-         }
-// <weight>: Use a value from 400 to 700
-// <uniquifier>: Use a unique and descriptive class name
+    font-family: "Roboto", sans-serif;
+    /*font-optical-sizing: auto;*/
+    /*font-weight: <weight>;*/
+    font-style: normal;
+    /*font-variation-settings: "wdth" 100;*/
+}
+/* <weight>: Use a value from 400 to 700 */
+/* <uniquifier>: Use a unique and descriptive class name */
 .kode-mono {
-                font-family: "Kode Mono", monospace;
-                font-optical-sizing: auto;
-                font-weight: <weight>;
-                font-style: normal;
-            }
+    font-family: "Kode Mono", monospace;
+    /*font-optical-sizing: auto;*/
+    /*font-weight: <weight>;*/
+    font-style: normal;
+}
 
+/* Full-screen fixed background video */
+#bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;       /* Ensures full coverage with cropping */
+    z-index: -1;             /* Sends video behind everything */
+    background: black;       /* Fallback background */
+}
+#video-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.2); /* 0.1 = 90% opacity video */
+    z-index: 0;
+}
+/* Outer div */
+.outer-box {
+    width: 100%;
+    height: 740px;
+    position: relative;
+    display: flex;
+    justify-content: center;     /* center left & right */
+    align-items: center;         /* center up & down */
+}
+/* Inner div */
+.inner-box {
+    width: 900px;
+    height: 410px;
+    background-color: rgba(242, 242, 255, 0.8); /* 70% opacity */
+    /*border-radius: 10px; /* optional */
+    box-sizing:border-box;
+    padding:40px;
+    color:#000000;
+    backdrop-filter:blur(6px);
+}
+.features-outer-box {
+    width: 100%;
+    background-color: #ffffff;
+    position: relative;
+    display: flex;
+    justify-content: center;     /* center left & right */
+}
+.features-inner-box {
+    width: 1200px;
+    margin: 0 auto;
+    height: auto;
+    padding:40px;
+    color: #666;
 
-html, body { font-family: Roboto, sans-serif; font-weight: 400; font-style: normal; font-size: 20px; color: #363636; margin: 0; padding: 0; width: 100%; height: 100%; }
+}
+
+.main-gray-outer-box {
+    width: 100%;
+    background-color: #aaa;
+    position: relative;
+    display: flex;
+    justify-content: center;     /* center left & right */
+}
+.main-gray-inner-box {
+    width: 1200px;
+    margin: 0 auto;
+    height: auto;
+    padding:40px;
+    color: #666;
+}
+/* Sample content styling */
+.ending-message {
+    /*width: 100%;*/
+    color: #fff;
+    /*position: relative;*/
+    text-align: right;
+    z-index: 1;
+    padding: 0px 60px 30px 0px;
+}
+
+html, body { font-family: Roboto, system-ui, -apple-system, sans-serif; font-weight: 400; font-style: normal; font-size: 20px; color: #363636; margin: 0; padding: 0; width: 100%; height: 100%; }
 h1 { font-family: "Roboto Slab", sans-serif;  font-weight: 900; }
+h2 { font-family: "Roboto Slab", sans-serif;  font-weight: 900; }
+h3 { font-family: "Roboto Slab", sans-serif;  font-weight: 900; }
+img { box-shadow: 8px 8px 20px  #888888; margin-bottom: 24px; margin-right: 24px; border-radius: 12px; }
+img.plain { box-shadow: 0px 0px 0px  #FFF; }
+blockquote { font-family: "Kode Mono", monospace; color: #000000; background-color: #EEEEEE;  border-left-color: #FFA500; border-left-style: solid; border-left-width: 12px; padding: 20px; width: auto; max-width: 700px; box-shadow: 8px 8px 20px #888888;}
