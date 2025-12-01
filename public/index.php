@@ -11,7 +11,7 @@ $html .= '<!-- Background Video -->
 
 $html .= file_get_contents(__DIR__.'/../templates/logo-div.html');
 $html .= file_get_contents(__DIR__.'/../templates/menu-div.html');
-$html .= file_get_contents(__DIR__.'/../templates/hero-div.html');
+$html .= file_get_contents(__DIR__ . '/../templates/welcome-div.html');
 $html .= file_get_contents(__DIR__ . '/../templates/features-div.html');
 $html .= file_get_contents(__DIR__.'/../templates/footer.html');
 
