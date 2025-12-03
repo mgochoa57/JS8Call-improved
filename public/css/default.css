@@ -56,7 +56,7 @@
 /* Welcome Inner div */
 .inner-box {
     width: 900px;
-    height: 410px;
+    height: 430px;
     background-color: rgba(242, 242, 255, 0.8); /* 70% opacity */
     /*border-radius: 10px; /* optional */
     box-sizing:border-box;
@@ -72,7 +72,7 @@
     justify-content: center;     /* center left & right */
 }
 .features-inner-box {
-    width: 1140px;
+    width: 1080px;
     margin: 0 auto;
     height: auto;
     padding:40px;
@@ -87,8 +87,42 @@
     z-index: 1;
     padding: 0px 60px 30px 0px;
 }
+div.video-box{
+    display: flex; /* Enables Flexbox */
+    align-items: center; /* Vertically center align-items */
+    gap: 30px; /* Spacing between the video and the text */
+}
+.video-box > video {
+    flex-shrink: 0; /* Prevent iframe from shrinking */
+    width: 480px; /* Optional, since width/height are set in HTML */
+    height: 270px; /* Optional, since width/height are set in HTML */
+}
+.video-box > iframe {
+    border: 0;
+    flex-shrink: 0; /* Prevent iframe from shrinking */
+    width: 480px; /* Optional, since width/height are set in HTML */
+    height: 270px; /* Optional, since width/height are set in HTML */
+}
+.video-box.img {
+    border: 0;
+    flex-shrink: 0; /* Prevent iframe from shrinking */
+    align-items: center; /* Vertically center align-items */
+    width: 480px; /* Optional, since width/height are set in HTML */
+    height: 270px; /* Optional, since width/height are set in HTML */
+}
+.video-text-18{
+    color: #183871;
+    flex: 1; /* Takes up the remaining space */
+    text-align: left; /* Ensures text is left-justified */
+}
+.video-text-44{
+    color: #444444;
+    flex: 1; /* Takes up the remaining space */
+    text-align: left; /* Ensures text is left-justified */
+}
 
-html, body { font-family: Roboto, system-ui, -apple-system, sans-serif; font-weight: 400; font-style: normal; font-size: 20px; color: #363636; margin: 0; padding: 0; width: 100%; height: 100%; }
+
+html, body { font-family: Roboto, system-ui, -apple-system, sans-serif; font-weight: 400; font-style: normal; font-size: 16px; color: #222; margin: 0; padding: 0; width: 100%; height: 100%; }
 h1 { font-family: "Roboto Slab", sans-serif;  font-weight: 900; }
 h2 { font-family: "Roboto Slab", sans-serif;  font-weight: 900; }
 h3 { font-family: "Roboto Slab", sans-serif;  font-weight: 900; }

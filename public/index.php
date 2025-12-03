@@ -1,9 +1,9 @@
 <?php
-//$html = file_get_contents('test.html');
+include '../scripts/html_tools.php';
+
 $html = file_get_contents(__DIR__.'/../templates/header.html');
 
 $html .= '<!-- Background Video -->
-
   <video id="bg-video" autoplay muted loop playsinline>
     <source src="img/2K_Tech_Globe_green-slow.mp4" type="video/mp4">
   </video>
@@ -11,7 +11,8 @@ $html .= '<!-- Background Video -->
 
 $html .= file_get_contents(__DIR__.'/../templates/logo-div.html');
 $html .= file_get_contents(__DIR__.'/../templates/menu-div.html');
-$html .= file_get_contents(__DIR__ . '/../templates/welcome-div.html');
+//$html .= file_get_contents(__DIR__ . '/../templates/welcome-div.html');
+$html .= build_welcome_message();
 $html .= file_get_contents(__DIR__ . '/../templates/features-div.html');
 $html .= file_get_contents(__DIR__.'/../templates/footer.html');
 
