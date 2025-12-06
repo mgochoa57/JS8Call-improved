@@ -2,7 +2,7 @@
 function build_welcome_message()
 {
     // URL of the raw version.txt file
-        $url = "https://github.com/JS8Call-improved/JS8Call-improved/releases/download/release%2F2.4.0/version.txt";
+        $url = "https://github.com/JS8Call-improved/JS8Call-improved/releases/latest/download/version.txt";
 
     // Try to fetch the version file
         $version = file_get_contents($url);

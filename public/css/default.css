@@ -103,7 +103,7 @@ div.video-box{
     width: 360px; /* Optional, since width/height are set in HTML */
     height: 203px; /* Optional, since width/height are set in HTML */
     box-shadow: 8px 8px 20px #888888;
-    margin: 12px 12px 12px 0px;
+    margin: 12px 12px 12px 0;
 }
 .video-box img {
     border: 0;
@@ -112,7 +112,7 @@ div.video-box{
     width: 360px; /* Optional, since width/height are set in HTML */
     height: 203px; /* Optional, since width/height are set in HTML */
     box-shadow: 8px 8px 20px #888888;
-    margin: 12px 12px 12px 0px;
+    margin: 12px 12px 12px 0;
 }
 .video-text-18{
     color: #183871;
