@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="8693689e-be70-4f03-9047-f5b1dae6998e" name="js8call">
+        <fileTransfer rootFolder="/var/www" accessType="SFTP" host="192.168.1.200" port="22" sshConfigId="41492589-ba75-44b0-bf2a-bf8e732544b4" sshConfig="mochoa@192.168.1.200:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
