@@ -10,8 +10,7 @@ $html .= '<!-- Background Video -->
 <div id="video-overlay"></div>';
 
 $html .= file_get_contents(__DIR__.'/../templates/logo-div.html');
-$html .= file_get_contents(__DIR__.'/../templates/menu-div.html');
-//$html .= file_get_contents(__DIR__ . '/../templates/welcome-div.html');
+$html .= get_menu('Home');
 $html .= build_welcome_message();
 $html .= file_get_contents(__DIR__ . '/../templates/features-div.html');
 $html .= file_get_contents(__DIR__.'/../templates/footer.html');

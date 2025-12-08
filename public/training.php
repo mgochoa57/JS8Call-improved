@@ -3,7 +3,7 @@ include '../scripts/html_tools.php';
 
 $html = file_get_contents(__DIR__.'/../templates/header.html');
 $html .= file_get_contents(__DIR__.'/../templates/logo-div.html');
-$html .= file_get_contents(__DIR__.'/../templates/menu-div.html');
+$html .= get_menu('Training');
 
 $html .= '<div class="features-outer-box">
     <div class="features-inner-box">

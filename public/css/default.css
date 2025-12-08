@@ -44,8 +44,22 @@
     background: rgba(0,0,0,0.2); /* 0.1 = 90% opacity video */
     z-index: 0;
 }
+.menu {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background-color: #e0e0e0;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    padding: 0 24px;
+    box-sizing: border-box;
+    gap: 24px;
+    font-family: 'Roboto', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 16px;
+}
 /* Welcome Outer div */
-.outer-box {
+.welcome-outer-box {
     width: 100%;
     height: 740px;
     position: relative;
@@ -54,9 +68,9 @@
     align-items: center;         /* center up & down */
 }
 /* Welcome Inner div */
-.inner-box {
+.welcome-inner-box {
     width: 900px;
-    height: 430px;
+    height: 410px;
     background-color: rgba(242, 242, 255, 0.8); /* 70% opacity */
     /*border-radius: 10px; /* optional */
     box-sizing:border-box;
@@ -124,10 +138,48 @@ div.video-box{
     flex: 1; /* Takes up the remaining space */
     text-align: left; /* Ensures text is left-justified */
 }
+.tools {
+    /* border: 1px solid black; */
+    display: block;
+    justify-content: center;     /* center left & right */
+    align-items: center;         /* center up & down */
+    text-align: left; /* Ensures text is left-justified */
+}
+.tools-blockquote {
+     font-family: monospace;
+    font-size: 14px;
+    display: flex;
+        background-color: #EEEEEE;
+        border-left-color: #FFA500;
+        border-left-style: solid;
+        border-left-width: 12px;
+        padding: 20px;
+        max-width: 700px;
+        box-shadow: 8px 8px 20px #888888;
+}
+.tools img{
+    border: 0;
+    flex-shrink: 0; /* Prevent iframe from shrinking */
+    align-items: center; /* Vertically center align-items */
+    width: 640px; /* Optional, since width/height are set in HTML */
+}
+.tools-text-18 {
+    color: #183871;
+    flex: 1; /* Takes up the remaining space */
+    text-align: left; /* Ensures text is left-justified */
+}
+.tools-text-44{
+    color: #444444;
+    flex: 1; /* Takes up the remaining space */
+    text-align: left; /* Ensures text is left-justified */
+}
 .shadow { box-shadow: 8px 8px 20px #888888; margin: 0px; }
 .radius-shadow { box-shadow: 8px 8px 20px #888888; border-radius: 12px; }
-
-
+.center-image {
+    display: block;      /* REQUIRED for margin:auto centering */
+    margin: 0 auto;      /* centers horizontally */
+}
+.alert { color: #aa0033; }
 html, body { font-family: Roboto, system-ui, -apple-system, sans-serif; font-weight: 400; font-style: normal; font-size: 16px; color: #222; margin: 0; padding: 0; width: 100%; height: 100%; }
 h1 { font-family: "Roboto Slab", sans-serif;  font-weight: 900; }
 h2 { font-family: "Roboto Slab", sans-serif;  font-weight: 900; }

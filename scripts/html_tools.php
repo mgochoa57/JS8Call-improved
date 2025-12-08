@@ -1,4 +1,30 @@
 <?php
+function get_menu($selection)
+{
+    $home     = 'Home';
+    $training = 'Training';
+    $tools    = 'Tools';
+    switch ($selection) {
+        case 'Home':
+            $home = '<strong style="color: darkblue;">Home</strong>';
+            break;
+        case 'Training':
+            $training = '<strong style="color: darkblue;">Training</strong>';
+            break;
+        case 'Tools':
+            $tools = '<strong style="color: darkblue;">Tools</strong>';
+            break;
+    }
+    $data = <<<EOT
+    <div class="menu">
+    <a href="/" style="text-decoration:none; color:#000000;">$home</a>
+    <a href="https://github.com/JS8Call-improved/JS8Call-improved/releases/latest" style="text-decoration:none; color:#000000;">Download</a>
+    <a href="/training.php" style="text-decoration:none; color:#000000;">$training</a>
+    <a href="/tools.php" style="text-decoration:none; color:#000000;">$tools</a>
+    </div>
+EOT;
+    return $data;
+}
 function build_welcome_message()
 {
     // URL of the raw version.txt file
@@ -9,13 +35,13 @@ function build_welcome_message()
 
     // If it fails, assign a default version
         if ($version === false) {
-            $version = "2.X.X";
+            $version = "2.4.0";
         } else {
             $version = trim($version);
         }
     $data = <<<EOT
-    <div class="outer-box">
-      <div class="inner-box">
+    <div class="welcome-outer-box">
+      <div class="welcome-inner-box">
         <h1 style="margin-top:0; font-family:'Roboto Slab', serif; color: maroon;  font-size:32px;">Welcome to JS8Call-Improved</h1>
         <p style="font-size:16px; line-height:1.5;">
           JS8Call-Improved is a community-driven evolution of JS8Call, bringing modern features,
@@ -24,15 +50,15 @@ function build_welcome_message()
         </p>
     
         <h2 style="font-family:'Roboto Slab', serif; font-size:24px; margin-top:24px;">
-          Now Available: Version $version</h2> 
-          <span class="roboto"><strong>Release Date:</strong> November 2, 2025</span>
+          Latest Version: $version</h2> 
+          <!-- <span class="roboto"><strong>Release Date:</strong> November 2, 2025</span> -->
         
         <p style="font-size:16px; line-height:1.5;">
           Download the latest JS8Call-Improved release from our GitHub repository:
           <br>
           <a href="https://github.com/JS8Call-improved/JS8Call-improved/releases/latest"
              style="font-weight:bold; text-decoration:none; color:#0000ee;">
-            https://github.com/JS8Call-improved/JS8Call-improved
+            https://github.com/JS8Call-improved
           </a>
         </p>
     
