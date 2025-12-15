@@ -8,24 +8,24 @@ $html .= get_menu('Tools');
 $html .= '<div class="features-outer-box">
     <div class="features-inner-box">
     
-    <div class="shadow" style="background-color: #375487; color: #FFFFFF; font-weight: 700; padding: 20px; margin-bottom: 20px;">JS8 Spotter</div>
+    <div style="background-color: #343465; color: #fff; font-weight: 700; padding: 12px; margin-bottom: 20px;">JS8 Spotter</div>
     <div class="tools">
         <img src="img/js8-spotter.png" class="shadow-video center-image"></a>
-        <h2>JS8 Spotter | Fills The Gaps in The JS8Call Feature Set</h2>
+        <h2>Fills The Gaps in The JS8Call Feature Set</h2>
         <p><strong>Description: </strong>JS8 Spotter can help users sort and track band activity, send APRS messages more easily, view stations on an offline map, send custom automated responses, and even implement simple forms. Data is stored in an SQLite database file, which is easily accessed via <a href="https://www.sqlitestudio.pl/"> SQLiteStudio</a> (export features are also built-in to JS8Spotter, for easy save or copy without having to open the database file.) </p>
-        <p class="video-text-18"><strong>Visit the JS8 Spotter Website here:</strong> </<a href="https://kf7mix.com/js8spotter.html">https://kf7mix.com/js8spotter</a> </p>
+        <p class="video-text-18"><strong>Visit the JS8 Spotter Website here:</strong> <a href="https://kf7mix.com/js8spotter.html">https://kf7mix.com/js8spotter</a> </p>
     </div>
     <br>
     
-    <div class="shadow" style="background-color: #375487; color: #FFFFFF; font-weight: 700; padding: 20px; margin-bottom: 20px;">QRZ Client</div>
+    <div style="background-color: #343465; color: #fff; font-weight: 700; padding: 12px; margin-bottom: 20px;">QRZ Client</div>
     <div class="tools">
         <img src="img/qrz-client.png" class="center-image">
     <br>
     <div class="tools-text-18">
-        <h2>A Command Line Client For The QRZ.com XML API</h2>
+        <h2>A Command Line Client For The qrz.com XML API</h2>
     </div>
     <div class="tools-text-44">
-        <p><strong>Features</strong></p>
+        <h3>Features</h3>
         <ul>
             <li>Callsign lookups</li>
             <li>DXCC Lookups</li>
@@ -35,7 +35,7 @@ $html .= '<div class="features-outer-box">
             <li>Can be used in scripts (Python, PHP, etc.)</li>
         </ul>
     </div>
-    <p><strong>Example</strong></p>
+    <h3>Example</h3>
     <div style="width: auto; display: flex">
     <pre style="font-family: \'Kode Mono\'; font-size: 12px; background-color: #222632; color: #8BBFEF; ">
   
@@ -51,15 +51,15 @@ $html .= '<div class="features-outer-box">
   +----------+--------------------+-------+--------------------+-------------+-----------+-------+-------+---------------+--------+  
   | Callsign |        Name        | Class |      Address       |     City    |   County  | State |  Zip  |    Country    |  Grid  |  
   +----------+--------------------+-------+--------------------+-------------+-----------+-------+-------+---------------+--------+  
-  | N0PRNK   | Bark Simpson       | G     | 3511 Fort St       | Springfield | Wayne     | IL    | 48146 | United States | DM04li |  
+  | N0PRNK   | Bart Simpson       | G     | 2107 MacArthur Dr  | West Orange | Orange    | TX    | 77630 | United States | DM04li |  
   +----------+--------------------+-------+--------------------+-------------+-----------+-------+-------+---------------+--------+  
-  | M0MNY    | Elon Musk          | G     | 404 Billioaire Dr  | Katy        | Harris    | TX    | 78577 | United States | EL06vc |  
+  | M0MNY    | Elon Musk          | G     | 1415 Hillsboro Bl  | Manchester  | Coffee    | TN    | 37355 | United States | EL06vc |  
   +----------+--------------------+-------+--------------------+-------------+-----------+-------+-------+---------------+--------+  
-  | N0MNY    | Satoshi Nakamoto   | G     | 4646 Wisconsin Ave | Washington  | Travis    | DC    | 70669 | United States | EM30ig |  
+  | N0MNY    | Satoshi Nakamoto   | G     | 333 Kaehole St     | Honolulu    | Honolulu  | HI    | 96825 | United States | EM30ig |  
   +----------+--------------------+-------+--------------------+-------------+-----------+-------+-------+---------------+--------+  
-  | M0FUN    | Alfred E Neuman    | E     | 25 Main Street     | Las Vegas   | Area 51   | NV    | 14502 | United States | FN13ib |  
+  | M0FUN    | Alfred E Neuman    | E     | 41728 W 10 Mile Rd | Novi        | Oakland   | MI    | 48375 | United States | FN13ib |  
   +----------+--------------------+-------+--------------------+-------------+-----------+-------+-------+---------------+--------+  
-  | H2OGUY   | Spongebob Sqrpants | E     | 5655 Townsend CT   | Los Angeles | Walton    | CA    | 37909 | United States | EM75xw |  
+  | H2OGUY   | Spongebob Sqrpants | E     | 8508 W Sahara Ave  | Las Vegas   | Area 51   | NV    | 89117 | United States | EM75xw |  
   +----------+--------------------+-------+--------------------+-------------+-----------+-------+-------+---------------+--------+  
   
 </pre>
@@ -71,6 +71,10 @@ $html .= '<div class="features-outer-box">
 </p>
 </div>
 <br>
+<div style="background-color: #343465; color: #fff; font-weight: 700; padding: 12px; margin-bottom: 20px;">CommState One</div>
+<img src="img/commstat-2024-07-08.png" class="shadow-video center-image" width="640"></a>
+<h2>A companion app developed for use with JS8Call</h2>
+<p><strong>CommStat One</strong> allows operators to send and receive standardized status <strong>reports (STATREPs)</strong> over the radio, and then <strong>compile, visualize, and map the locations and activity of participating stations</strong> that have submitted those reports. The tool (a Python-based program) enhances situational awareness in a JS8Call network by providing reporting, tracking, and mapping functions that support coordinated communications among a group of operators.</p>
 </div>
 </div>';
 
