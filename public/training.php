@@ -8,6 +8,15 @@ $html .= get_menu('Training');
 $html .= '<div class="features-outer-box">
     <div class="features-inner-box">
     
+    <div>
+    
+    
+    </div>
+    
+    
+    
+    
+    
     <div class="shadow" style="background-color: #375487; color: #FFFFFF; font-weight: 700; padding: 20px; margin-bottom: 20px;">These Videos Feature Version 2.2.0, But The Instructions Are The Same For Version 2.3.0 And Above</div>
     <div class="video-box">
         <a href="https://www.youtube.com/watch?v=XZPfBNgn-P0" target="_blank" rel="noopener noreferrer"><img src="img/js8call_vid1_jjs_2025-12.png" class="shadow-video"></a>
