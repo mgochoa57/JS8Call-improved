@@ -48,7 +48,6 @@
     position: relative;
     width: 100%;
     height: 40px;
-    background-color: #e0e0e0;
     z-index: 2;
     display: flex;
     align-items: center;
@@ -179,9 +178,26 @@ div.video-box{
     display: block;      /* REQUIRED for margin:auto centering */
     margin: 0 auto;      /* centers horizontally */
 }
-.alert { color: #aa0033; }
-html, body { font-family: Roboto, system-ui, -apple-system, sans-serif; font-weight: 400; font-style: normal; font-size: 16px; color: #222; margin: 0; padding: 0; width: 100%; height: 100%; }
+.alert { color: #aa0033; font-weight: bold }
+html, body { font-family: Roboto, system-ui, -apple-system, sans-serif; font-weight: 400; font-style: normal; font-size: 16px; color: #202020; margin: 0; padding: 0; width: 100%; height: 100%; }
 h1 { font-family: "Roboto Slab", sans-serif;  font-weight: 900; }
 h2 { font-family: "Roboto Slab", sans-serif;  font-weight: 900; }
 h3 { font-family: "Roboto Slab", sans-serif;  font-weight: 900; }
 blockquote { font-family: "Kode Mono", monospace; color: #000000; background-color: #EEEEEE;  border-left-color: #FFA500; border-left-style: solid; border-left-width: 12px; padding: 20px; width: auto; max-width: 700px; box-shadow: 8px 8px 20px #888888;}
+
+table { border-collapse: collapse; border: 1px solid #DDD; }
+th { text-align: left; vertical-align: middle; padding: 8px; background-color: #336699; color: #FFF; }
+td { vertical-align: middle; padding: 12px 30px 12px 12px; border-bottom: 1px solid #DDD;}
+
+.green .banner { background-color: #385C30; color: #fff; font-weight: 700; padding: 20px; margin-bottom: 36px; }
+.green h1 { color: #385C30; }
+.green h2 { color: #385C30; }
+.green h3 { color: #385C30; }
+.blue .banner { background-color: #375487; color: #fff; font-weight: 700; padding: 20px; margin-bottom: 36px; }
+.blue h1 { color: #375487; }
+.blue h2 { color: #375487; }
+.blue h3 { color: #375487; }
+.purple .banner { background-color: #5521A3; color: #fff; font-weight: 700; padding: 20px; margin-bottom: 36px; }
+.purple h1 { color: #5521A3; }
+.purple h2 { color: #5521A3; }
+.purple h3 { color: #5521A3; }

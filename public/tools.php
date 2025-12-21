@@ -7,17 +7,17 @@ $html .= get_menu('Tools');
 
 $html .= '<div class="features-outer-box">
     <div class="features-inner-box">
-    
-    <div style="background-color: #343465; color: #fff; font-weight: 700; padding: 12px; margin-bottom: 20px;">JS8 Spotter</div>
+    <div class="purple">
+    <div class="banner shadow">JS8 Spotter</div>
     <div class="tools">
         <img src="img/js8-spotter.png" class="shadow-video center-image"></a>
         <h2>Fills The Gaps in The JS8Call Feature Set</h2>
         <p><strong>Description: </strong>JS8 Spotter can help users sort and track band activity, send APRS messages more easily, view stations on an offline map, send custom automated responses, and even implement simple forms. Data is stored in an SQLite database file, which is easily accessed via <a href="https://www.sqlitestudio.pl/"> SQLiteStudio</a> (export features are also built-in to JS8Spotter, for easy save or copy without having to open the database file.) </p>
-        <p class="video-text-18"><strong>Visit the JS8 Spotter Website here:</strong> <a href="https://kf7mix.com/js8spotter.html">https://kf7mix.com/js8spotter</a> </p>
+        <p><span class="alert">Visit the JS8 Spotter Website here:</span> <a href="https://kf7mix.com/js8spotter.html">https://kf7mix.com/js8spotter</a> </p>
     </div>
     <br>
     
-    <div style="background-color: #343465; color: #fff; font-weight: 700; padding: 12px; margin-bottom: 20px;">QRZ Client</div>
+    <div class="banner shadow">QRZ Client</div>
     <div class="tools">
         <img src="img/qrz-client.png" class="center-image">
     <br>
@@ -51,33 +51,36 @@ $html .= '<div class="features-outer-box">
   +----------+--------------------+-------+--------------------+-------------+-----------+-------+-------+---------------+--------+  
   | Callsign |        Name        | Class |      Address       |     City    |   County  | State |  Zip  |    Country    |  Grid  |  
   +----------+--------------------+-------+--------------------+-------------+-----------+-------+-------+---------------+--------+  
-  | N0PRNK   | Bart Simpson       | G     | 2107 MacArthur Dr  | West Orange | Orange    | TX    | 77630 | United States | DM04li |  
+  | N0PRNK   | Bart Simpson       | G     | 2107 MacArthur Dr  | West Orange | Orange    | TX    | 77630 | United States | EM30cc |  
   +----------+--------------------+-------+--------------------+-------------+-----------+-------+-------+---------------+--------+  
-  | M0MNY    | Elon Musk          | G     | 1415 Hillsboro Bl  | Manchester  | Coffee    | TN    | 37355 | United States | EL06vc |  
+  | M0MNY    | Indiana Jones      | G     | 1415 Hillsboro Bl  | Manchester  | Coffee    | TN    | 37355 | United States | EM65xl |  
   +----------+--------------------+-------+--------------------+-------------+-----------+-------+-------+---------------+--------+  
-  | N0MNY    | Satoshi Nakamoto   | G     | 333 Kaehole St     | Honolulu    | Honolulu  | HI    | 96825 | United States | EM30ig |  
+  | N0MNY    | Satoshi Nakamoto   | G     | 333 Kaehole St     | Honolulu    | Honolulu  | HI    | 96825 | United States | BL11dg |  
   +----------+--------------------+-------+--------------------+-------------+-----------+-------+-------+---------------+--------+  
-  | M0FUN    | Alfred E Neuman    | E     | 41728 W 10 Mile Rd | Novi        | Oakland   | MI    | 48375 | United States | FN13ib |  
+  | M0FUN    | Alfred E Neuman    | E     | 41728 W 10 Mile Rd | Novi        | Oakland   | MI    | 48375 | United States | EN82gl |  
   +----------+--------------------+-------+--------------------+-------------+-----------+-------+-------+---------------+--------+  
-  | H2OGUY   | Spongebob Sqrpants | E     | 8508 W Sahara Ave  | Las Vegas   | Area 51   | NV    | 89117 | United States | EM75xw |  
+  | H2OGUY   | Spongebob Sqrpants | E     | 371 W Parker St    | Baxley      | Appling   | GA    | 31513 | United States | EM81ts |  
   +----------+--------------------+-------+--------------------+-------------+-----------+-------+-------+---------------+--------+  
   
 </pre>
 </div>
 <p>
-<span class="alert"><strong>Runs on: </strong></span>Windows & Linux<br>
-<span class="alert"><strong>Requirements: </strong></span>You must have a qrz xml subscription<br>
-<span class="alert"><strong>Download: </strong></span><a href="https://github.com/rruchte/qrzclient">https://github.com/rruchte/qrzclient</a> Click the "Latest" link in the right column<br>
+  <span class="alert">Runs on: </span>Windows & Linux<br>
+  <span class="alert">Requirements: </span>You must have a qrz xml subscription<br>
+  <span class="alert">Download: </span><a href="https://github.com/rruchte/qrzclient">https://github.com/rruchte/qrzclient</a> Click the "Latest" link in the right column<br>
 </p>
 </div>
 <br>
-<div style="background-color: #343465; color: #fff; font-weight: 700; padding: 12px; margin-bottom: 20px;">CommState One</div>
-<img src="img/commstat-2024-07-08.png" class="shadow-video center-image" width="640"></a>
-<h2>A companion app developed for use with JS8Call</h2>
-<p><strong>CommStat One</strong> allows operators to send and receive standardized status <strong>reports (STATREPs)</strong> over the radio, and then <strong>compile, visualize, and map the locations and activity of participating stations</strong> that have submitted those reports. The tool (a Python-based program) enhances situational awareness in a JS8Call network by providing reporting, tracking, and mapping functions that support coordinated communications among a group of operators.</p>
+<div class="banner shadow">CommStat-Improved</div>
+<img src="img/commstat-2-3-0.png" class="shadow-video center-image" width="640"></a>
+<h2>A Companion App Developed For Use With JS8Call</h2>
+<p><strong>CommStat</strong> allows operators to send and receive standardized status <strong>reports (STATREPs)</strong> over the radio, and then <strong>compile, visualize, and map the locations and activity of participating stations</strong> that have submitted those reports. The tool (a Python-based program) enhances situational awareness in a JS8Call network by providing reporting, tracking, and mapping functions that support coordinated communications among a group of operators.</p>
+<p><span class="alert">Note:</span> Instructions and download links coming soon. (posted December 21, 2025)</p>
+</div>
 </div>
 </div>';
 
+//Next item:  https://www.sqlitestudio.pl/
 
 $html .= file_get_contents(__DIR__.'/../templates/footer.html');
 

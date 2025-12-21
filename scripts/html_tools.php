@@ -1,12 +1,18 @@
 <?php
 function get_menu($selection)
 {
+
     $home     = 'Home';
+    $downloads = 'Downloads';
     $training = 'Training';
     $tools    = 'Tools';
+    $background_color = '#e0e0e0';
     switch ($selection) {
         case 'Home':
             $home = '<strong style="color: darkblue;">Home</strong>';
+            break;
+        case 'Downloads':
+            $downloads = '<strong style="color: darkblue;">Downloads</strong>';
             break;
         case 'Training':
             $training = '<strong style="color: darkblue;">Training</strong>';
@@ -16,9 +22,9 @@ function get_menu($selection)
             break;
     }
     $data = <<<EOT
-    <div class="menu">
-    <a href="/" style="text-decoration:none; color:#000000;">$home</a>
-    <a href="https://github.com/JS8Call-improved/JS8Call-improved/releases/latest" style="text-decoration:none; color:#000000;">Download</a>
+    <div class="menu" style="background-color: $background_color">
+    <a href="/" style="text-decoration:none; color: #000000;">$home</a>
+    <a href="/downloads.php" style="text-decoration:none; color: #000000;">$downloads</a>
     <a href="/training.php" style="text-decoration:none; color:#000000;">$training</a>
     <a href="/tools.php" style="text-decoration:none; color:#000000;">$tools</a>
     </div>
@@ -54,12 +60,9 @@ function build_welcome_message()
           <!-- <span class="roboto"><strong>Release Date:</strong> November 2, 2025</span> -->
         
         <p style="font-size:16px; line-height:1.5;">
-          Download the latest JS8Call-Improved release from our GitHub repository:
+          Download the latest version of JS8Call-Improved today:
           <br>
-          <a href="https://github.com/JS8Call-improved/JS8Call-improved/releases/latest"
-             style="font-weight:bold; text-decoration:none; color:#0000ee;">
-            https://github.com/JS8Call-improved
-          </a>
+          <a href="downloads.php" style="font-weight:bold; text-decoration:none; color:#0000ee;">Downloads</a>
         </p>
     
         <p style="margin-top:16px; font-size:16px;">
