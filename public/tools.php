@@ -72,10 +72,10 @@ $html .= '<div class="features-outer-box">
 </div>
 <br>
 <div class="banner shadow">CommStat-Improved</div>
-<img src="img/commstat-2-3-0.png" class="shadow-video center-image" width="640"></a>
+<a href="img/commstat-2-3-0.png"><img src="img/commstat-2-3-0.png" class="shadow-video center-image" width="640"></a>
 <h2>A Companion App Developed For Use With JS8Call</h2>
 <p><strong>CommStat</strong> allows operators to send and receive standardized status <strong>reports (STATREPs)</strong> over the radio, and then <strong>compile, visualize, and map the locations and activity of participating stations</strong> that have submitted those reports. The tool (a Python-based program) enhances situational awareness in a JS8Call network by providing reporting, tracking, and mapping functions that support coordinated communications among a group of operators.</p>
-<p><span class="alert">Note:</span> Instructions and download links coming soon. (posted December 21, 2025)</p>
+<p><span class="alert">Note:</span> Instructions and download links coming soon. (Updated: December 21, 2025)</p>
 </div>
 </div>
 </div>';
