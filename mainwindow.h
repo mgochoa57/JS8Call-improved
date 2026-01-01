@@ -400,7 +400,7 @@ private:
   QByteArray wisdomFileName() const;
 
   void writeAllTxt(QStringView message);
-  void writeMsgTxt(QStringView message, int snr);
+  void writeMsgTxt(QStringView message, int snr, int offset);
 
   void currentTextChanged();
   void tableSelectionChanged(QItemSelection const &,

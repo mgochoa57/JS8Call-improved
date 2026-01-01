@@ -8958,7 +8958,7 @@ void MainWindow::processCommandActivity() {
         }
 
         // log the text to directed txt log
-        writeMsgTxt(text, d.snr);
+        writeMsgTxt(text, d.snr, d.offset);
 
         // write all directed messages to api
         if(canSendNetworkMessage()){
@@ -11471,7 +11471,8 @@ MainWindow::writeAllTxt(QStringView message)
 
 void
 MainWindow::writeMsgTxt(QStringView message,
-                        int         snr)
+                        int         snr,
+                        int         offset)
 {
   if (!m_config.write_logs()) return;
 
@@ -11484,7 +11485,7 @@ MainWindow::writeMsgTxt(QStringView message,
       QTextStream out(&f);
       QString     output = DriftingDateTime::currentDateTimeUtc().toString("yyyy-MM-dd hh:mm:ss")
                   % "\t" % Radio::frequency_MHz_string(m_freqNominal)
-                  % "\t" % QString::number(freq())
+                  % "\t" % QString::number(offset)
                   % "\t" % Varicode::formatSNR(snr)
                   % "\t" % message;
 
