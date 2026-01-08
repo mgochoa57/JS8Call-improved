@@ -150,7 +150,7 @@ void MainWindow::processCommandActivity() {
                  {"CMD", QVariant(d.cmd)},
                  {"GRID", QVariant(d.grid)},
                  {"EXTRA", QVariant(d.extra)},
-                 {"TEXT", QVariant(text)},
+                 {"TEXT", QVariant(d.text)},
                  {"FREQ", QVariant(d.dial + d.offset)},
                  {"DIAL", QVariant(d.dial)},
                  {"OFFSET", QVariant(d.offset)},
