@@ -9,7 +9,7 @@ $html .= '<div class="features-outer-box">
     <div class="features-inner-box">
     <div class="green">
     <div class="banner shadow">JS8Call User Guide</div>
-    <div style="display: flex; gap: 100px;"><a href="https://github.com/JS8Call-improved/JS8Call-improved/releases/latest/download/JS8Call_User_Guide.pdf"><img class="shadow" src="img/JS8Call_Guide.jpg" height="300"></a>
+    <div style="display: flex; gap: 100px;"><a href="https://github.com/JS8Call-improved/JS8Call-improved/releases/latest/download/JS8Call_User_Guide.pdf"><img class="shadow" src="img/JS8Call_Guide.jpg" height="300" alt="User Guide"></a>
       <div>
         <h2>Important Note About The JS8Call User Guide</h2>
         <p>JS8Call version 2.2.0 and this user guide were originally released in June 2020. No official program updates were published again until version 2.3.0, which was released in June 2025. The development team is currently working on an updated user guide; until then, this document remains the most recent version available. While some links in the guide are no longer active, the content is still relevant and provides solid foundational training for using JS8Call.</p>
@@ -19,7 +19,7 @@ $html .= '<div class="features-outer-box">
     <br>
     <br>
     <div class="banner shadow">JS8Call-Improved Version 2.5.0</div>
-    <table style="font-family: Kode Mono;">
+    <table style="font-family: \'Kode Mono\' monospace;">
     <tr style=" font-weight: bold; color: #000000; background-color: #f7fff7; "><td>Filename</td><td>Comment</td><td>Published</td></tr>
     <tr><td><a href="https://github.com/JS8Call-improved/JS8Call-improved/releases/download/release%2F2.5.0/JS8Call-2.5.0-arm64.AppImage">JS8Call-2.5.0-arm64.AppImage</a> </td><td>Linux ARM64</td><td>Jan 6, 2026</td></tr>
     <tr><td><a href="https://github.com/JS8Call-improved/JS8Call-improved/releases/download/release%2F2.5.0/JS8Call-2.5.0-installer.exe">JS8Call-2.5.0-installer.exe</a> </td><td>Windows x86_64</td><td>Jan 6, 2026</td></tr>
