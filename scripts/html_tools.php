@@ -57,7 +57,7 @@ function build_welcome_message()
     
         <h2 style="font-family:'Roboto Slab', serif; font-size:24px; margin-top:24px;">
           Latest Version: $version</h2> 
-          <!-- <span class="roboto"><strong>Release Date:</strong> November 2, 2025</span> -->
+          <span class="roboto"><strong>Release Date:</strong> January 6, 2026</span>
         
         <p style="font-size:16px; line-height:1.5;">
           Download the latest version of JS8Call-Improved today:
