@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://js8call-improved.com/sitemap.xml

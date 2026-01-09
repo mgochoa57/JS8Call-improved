@@ -18,7 +18,7 @@ $html .= '<div class="features-outer-box">
     </div>
     <br>
     <br>
-    <div class="banner shadow">JS8Call-Improved Version 2.5.0</div>
+    <div class="banner shadow">Download Links For JS8Call Version 2.5.0</div>
     <table style="font-family: \'Kode Mono\' monospace;">
     <tr style=" font-weight: bold; color: #000000; background-color: #f7fff7; "><td>Filename</td><td>Comment</td><td>Published</td></tr>
     <tr><td><a href="https://github.com/JS8Call-improved/JS8Call-improved/releases/download/release%2F2.5.0/JS8Call-2.5.0-arm64.AppImage">JS8Call-2.5.0-arm64.AppImage</a> </td><td>Linux ARM64</td><td>Jan 6, 2026</td></tr>
@@ -30,6 +30,40 @@ $html .= '<div class="features-outer-box">
     <p><span class="alert">Note</span>: for SHA-256 checksums, licensing information, source code, release history, and to report issues or contribute to development, please visit the JS8Call repository on Github: <a href="https://github.com/JS8Call-improved/JS8Call-improved">https://github.com/JS8Call-improved/JS8Call-improved</a>.</p>
     
     <br>
+    
+    
+    <h2>Clarification on the JS8Call Name and Project Organization</h2>
+
+    <p>We want to clear up some recent confusion regarding the JS8Call name, the JS8Call-Improved organization, and recent version releases.</p>
+    <p>For many years, the program was released under the name JS8Call, and development took place under the js8call organization.</p>
+    <p>With the release of version 2.4.0, two changes occurred at the same time:
+      <ul>
+      <li>The application name was released as JS8Call-Improved</li>
+      <li>The development organization was renamed from js8call to js8call-improved</li>
+    </ul>
+    <p>These simultaneous changes understandably caused confusion within the community.</p>
+
+    <p>Beginning with version 2.5.0, the application name was restored to JS8Call, which remains the official name of the software going forward. The development organization, however, continues to operate under the JS8Call-Improved name.</p>
+
+    <p>The official website for the JS8Call project is: js8call-improved.com</p>
+    
+    
+    
+    <h2>Development Team Update</h2>
+
+    <p>The development team has continued to grow and now consists of 11 contributors. Jordan Sherer, the original creator of JS8Call, remains an active member of the development team.</p>
+
+    <p>We appreciate the community’s patience and continued support as the project evolves. Our goal remains to maintain clarity, continuity, and transparency while advancing JS8Call’s development.</p>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     <div>
     <h2>Major Features For The 2.5.0 Release</h2>
