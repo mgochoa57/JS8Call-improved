@@ -6,8 +6,8 @@ $html .= file_get_contents(__DIR__.'/../templates/logo-div.html');
 $html .= get_menu('Downloads');
 
 $html .= '<div class="features-outer-box">
-    <div class="features-inner-box">
-    <div class="green">
+<div class="features-inner-box">
+  <div class="green">
     <div class="banner shadow">JS8Call User Guide</div>
     <div style="display: flex; gap: 100px;"><a href="https://github.com/JS8Call-improved/JS8Call-improved/releases/latest/download/JS8Call_User_Guide.pdf"><img class="shadow" src="img/JS8Call_Guide.jpg" height="300" alt="User Guide"></a>
       <div>
@@ -18,61 +18,66 @@ $html .= '<div class="features-outer-box">
     </div>
     <br>
     <br>
-    <div class="banner shadow">Download Links For JS8Call Version 2.5.0</div>
-    <table style="font-family: \'Kode Mono\' monospace;">
+    <div class="banner shadow">Download Links For JS8Call Version 2.5.2</div>
+    <table style="font-family: \'Kode Mono\', monospace;">
     <tr style=" font-weight: bold; color: #000000; background-color: #f7fff7; "><td>Filename</td><td>Comment</td><td>Published</td></tr>
-    <tr><td><a href="https://github.com/JS8Call-improved/JS8Call-improved/releases/download/release%2F2.5.0/JS8Call-2.5.0-arm64.AppImage">JS8Call-2.5.0-arm64.AppImage</a> </td><td>Linux ARM64</td><td>Jan 6, 2026</td></tr>
-    <tr><td><a href="https://github.com/JS8Call-improved/JS8Call-improved/releases/download/release%2F2.5.0/JS8Call-2.5.0-installer.exe">JS8Call-2.5.0-installer.exe</a> </td><td>Windows x86_64</td><td>Jan 6, 2026</td></tr>
-    <tr><td><a href="https://github.com/JS8Call-improved/JS8Call-improved/releases/download/release%2F2.5.0/JS8Call-2.5.0-x86_64.AppImage">JS8Call-2.5.0-x86_64.AppImage</a> </td><td>Linux	x86_64 (AMD64)</td><td>Jan 6, 2026</td></tr>
-    <tr><td><a href="https://github.com/JS8Call-improved/JS8Call-improved/releases/download/release%2F2.5.0/JS8Call_2.5.0_arm64.dmg">JS8Call_2.5.0_arm64.dmg</a> </td><td>Mac OS - ARM64 (Apple Silicon)</td><td>Jan 6, 2026</td></tr>
-    <tr><td><a href="https://github.com/JS8Call-improved/JS8Call-improved/releases/download/release%2F2.5.0/JS8Call_2.5.0_universal.dmg">JS8Call_2.5.0_universal.dmg</a> </td><td>Mac OS - Universal (Intel + Apple Silicon)</td><td>Jan 6, 2026</td></tr>
+    <tr><td><a href="https://github.com/JS8Call-improved/JS8Call-improved/releases/download/release%2F2.5.2/JS8Call-2.5.2-arm64.AppImage">JS8Call-2.5.2-arm64.AppImage</a> </td><td>Linux ARM64</td><td>Jan 28, 2026</td></tr>
+    <tr><td><a href="https://github.com/JS8Call-improved/JS8Call-improved/releases/download/release%2F2.5.2/JS8Call-2.5.2-installer.exe">JS8Call-2.5.2-installer.exe</a> </td><td>Windows x86_64</td><td>Jan 28, 2026</td></tr>
+    <tr><td><a href="https://github.com/JS8Call-improved/JS8Call-improved/releases/download/release%2F2.5.2/JS8Call-2.5.2-x86_64.AppImage">JS8Call-2.5.2-x86_64.AppImage</a> </td><td>Linux	x86_64 (AMD64)</td><td>Jan 28, 2026</td></tr>
+    <tr><td><a href="https://github.com/JS8Call-improved/JS8Call-improved/releases/download/release%2F2.5.2/JS8Call_2.5.2_arm64.dmg">JS8Call_2.5.2_arm64.dmg</a> </td><td>Mac OS - ARM64 (Apple Silicon)</td><td>Jan 28, 2026</td></tr>
+    <tr><td><a href="https://github.com/JS8Call-improved/JS8Call-improved/releases/download/release%2F2.5.2/JS8Call_2.5.2_universal.dmg">JS8Call_2.5.2_universal.dmg</a> </td><td>Mac OS - Universal (Intel + Apple Silicon)</td><td>Jan 28, 2026</td></tr>
+    <tr><td><a href="https://github.com/JS8Call-improved/Android-port/releases/download/1.0-BETA5/JS8Android-1.0-BETA5.apk">JS8Android-1.0-BETA5.apk</a> </td><td>Android Pre-Release 1.0 Beta 5</td><td>Jan 24, 2026</td></tr>
     </table>
     <p><span class="alert">Note</span>: for SHA-256 checksums, licensing information, source code, release history, and to report issues or contribute to development, please visit the JS8Call repository on Github: <a href="https://github.com/JS8Call-improved/JS8Call-improved">https://github.com/JS8Call-improved/JS8Call-improved</a>.</p>
-    
+    <p><span class="alert">Android</span>: The source code for the Android port can be found here: <a href="https://github.com/JS8Call-improved/Android-port/releases/tag/1.0-BETA4">https://github.com/JS8Call-improved/Android-port/releases/tag/1.0-BETA4</a></p>
     <br>
-    
-    
-    <h2>Clarification on the JS8Call Name and Project Organization</h2>
 
+
+    <h2>Clarification on the JS8Call Name and Project Organization</h2>
     <p>We want to clear up some recent confusion regarding the JS8Call name, the JS8Call-Improved organization, and recent version releases.</p>
     <p>For many years, the program was released under the name JS8Call, and development took place under the js8call organization.</p>
     <p>With the release of version 2.4.0, two changes occurred at the same time:
       <ul>
       <li>The application name was released as JS8Call-Improved</li>
-      <li>The development organization was renamed from js8call to js8call-improved</li>
+      <li>A new development organization was created called js8call-improved</li>
     </ul>
     <p>These simultaneous changes understandably caused confusion within the community.</p>
-
     <p>Beginning with version 2.5.0, the application name was restored to JS8Call, which remains the official name of the software going forward. The development organization, however, continues to operate under the JS8Call-Improved name.</p>
-
     <p>The official website for the JS8Call project is: js8call-improved.com</p>
-    
-    
-    
+
     <h2>Development Team Update</h2>
-
     <p>The development team has continued to grow and now consists of 11 contributors. Jordan Sherer, the original creator of JS8Call, remains an active member of the development team.</p>
-
     <p>We appreciate the community’s patience and continued support as the project evolves. Our goal remains to maintain clarity, continuity, and transparency while advancing JS8Call’s development.</p>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <div>
-    <h2>Major Features For The 2.5.0 Release</h2>
+    <div>';
+
+$html .= '<h2>What\'s New in Version 2.5.1</h2>
+    <p>Version 2.5.1 is a patch release that improves theme compatibility and user experience in the Configuration dialog.</p>
+    <p><b>Dark Mode Compatibility Fix</b></p>
+    <p>This release resolves an issue where the Configuration dialog did not display correctly when using dark desktop themes, particularly on Linux systems. The previous version used hardcoded background colors that conflicted with system theme settings, resulting in poor readability and visual inconsistencies.</p>
+    <p><b>Changes include</b>:</p>
+    <ul>
+        <li>Removed hardcoded background colors that interfered with dark themes</li>
+        <li>Removed custom styling from the saved messages list that caused display issues</li>
+        <li>The UI now properly respects your system\'s color scheme</li>
+    </ul>
+    <p><b>Improved Configuration Validation</b></p>
+    <p>We\'ve added visual feedback to help ensure your station is properly configured:</p>
+    <ul>
+    <li>The Callsign and Grid fields now display a warning icon when empty</li>
+    <li>Hovering over the icon shows a tooltip indicating the field is required</li>
+    <li>The warning automatically disappears once you enter valid information</li>
+    </ul>
+    <p>This makes it easier to spot missing configuration at a glance.</p>';
+
+
+$html .= '<h2>Major Features For The 2.5.0 Release</h2>
     <ul>
         <li>WSJT-X UDP Protocol Support - Added WSJT-X UDP protocol reporting support for better integration with logging software</li>
         <li>User Guide - Added comprehensive JS8Call User Guide to Help menu (PDF and editable .docx source)</li>
         <li>Software Update Notifier - Fixed and improved the automatic update check feature</li>
         <li>Reduced Headers for Small Screens - Added optional reduced-length strings for table headers and cells to optimize space on small displays (toggle in View menu)</li>
     </ul>
+    
     <h2>Decoder Improvements (Major Performance Boost)</h2>
     <ul>
         <li>Soft Combining - Added soft combining of repeat frames for SNR improvement</li>
@@ -116,7 +121,7 @@ $html .= '<div class="features-outer-box">
         <li>Added randomness to reporting interval</li>
         <li>Removed 49 MHz+ cache bypass inherited from WSJT-X</li>
     </ul>
-    
+
     <h2>Documentation & Build</h2>
     <ul>
         <li>Hamlib Updated - Updated to Hamlib 4.6.5 (from 4.6.4) across all platforms</li>
@@ -126,7 +131,7 @@ $html .= '<div class="features-outer-box">
         <li>Doxygen - Added Doxygen documentation hooks throughout codebase</li>
         <li>Qt 6.9 Compatibility - Fixed deprecated setTimeSpec for Qt 6.9</li>
     </ul>
-    
+
     <h2>Code Cleanup</h2>
     <ul>
         <li>Major code reorganization: moved loose source/header files to group folders</li>
@@ -136,7 +141,7 @@ $html .= '<div class="features-outer-box">
         <li>Fixed MessageBox naming conflict with Microsoft\'s #define</li>
         <li>Added .clang-format configuration file</li>
     </ul>
-    
+
     <h2>Licensing</h2>
     <ul>
         <li>Updated LICENSE and About dialog to include FFmpeg licensing requirements</li>
@@ -144,15 +149,9 @@ $html .= '<div class="features-outer-box">
     <br>
     <br>
     <p><span class="alert">Bottom Line</span>: Version 2.5.0 brings significant decoder performance improvements, better WSJT-X integration, enhanced PSK Reporter functionality, and numerous bug fixes while maintaining compatibility with the latest toolchains.</p>
-    
-</div>
-    
-    
-    
-    
-    
-    <br>
     </div>
+ 
+    <br>
     </div>
     </div>';
 
