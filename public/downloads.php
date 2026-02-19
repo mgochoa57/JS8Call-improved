@@ -26,14 +26,26 @@ $html .= '<div class="features-outer-box">
     <tr><td><a href="https://github.com/JS8Call-improved/JS8Call-improved/releases/download/release%2F2.5.2/JS8Call-2.5.2-x86_64.AppImage">JS8Call-2.5.2-x86_64.AppImage</a> </td><td>Linux	x86_64 (AMD64)</td><td>Jan 28, 2026</td></tr>
     <tr><td><a href="https://github.com/JS8Call-improved/JS8Call-improved/releases/download/release%2F2.5.2/JS8Call_2.5.2_arm64.dmg">JS8Call_2.5.2_arm64.dmg</a> </td><td>Mac OS - ARM64 (Apple Silicon)</td><td>Jan 28, 2026</td></tr>
     <tr><td><a href="https://github.com/JS8Call-improved/JS8Call-improved/releases/download/release%2F2.5.2/JS8Call_2.5.2_universal.dmg">JS8Call_2.5.2_universal.dmg</a> </td><td>Mac OS - Universal (Intel + Apple Silicon)</td><td>Jan 28, 2026</td></tr>
-    <tr><td><a href="https://github.com/JS8Call-improved/Android-port/releases/download/1.0-BETA5/JS8Android-1.0-BETA5.apk">JS8Android-1.0-BETA5.apk</a> </td><td>Android Pre-Release 1.0 Beta 5</td><td>Jan 24, 2026</td></tr>
+    <tr><td><a href="https://github.com/JS8Call-improved/Android-port/releases/download/1.0-RC1/JS8Android-1.0-RC1.apk">JS8Android-1.0-RC1.apk</a> </td><td>Android Release Candidate 1</td><td>Feb 13, 2026</td></tr>
     </table>
     <p><span class="alert">Note</span>: for SHA-256 checksums, licensing information, source code, release history, and to report issues or contribute to development, please visit the JS8Call repository on Github: <a href="https://github.com/JS8Call-improved/JS8Call-improved">https://github.com/JS8Call-improved/JS8Call-improved</a>.</p>
-    <p><span class="alert">Android</span>: The source code for the Android port can be found here: <a href="https://github.com/JS8Call-improved/Android-port/releases/tag/1.0-BETA4">https://github.com/JS8Call-improved/Android-port/releases/tag/1.0-BETA4</a></p>
-    <br>
+    <p><span class="alert">Android</span>: The source code for the Android port can be found here: <a href="https://github.com/JS8Call-improved/Android-port/releases/tag/1.0-RC1">https://github.com/JS8Call-improved/Android-port/releases/tag/1.0-RC1</a></p>
+    <br>';
+
+$html .='<div class="banner shadow">Discover CommStat And Run CommStat & JS8Call Together</div>
+        <div style="display: flex; justify-content: center; gap: 20px;">
+        <img src="img/commstat+js8call.png" width="516"><img src="img/js8call+commstat.png" width="520">
+        </div>
+
+        <h2>What Is CommStat?</h2>
+        <p>CommStat is a companion application designed to extend the capabilities of JS8Call by adding structured reporting, tracking, and visualization of stations operating on a network. It provides a practical way to collect, manage, and interpret STATREPs transmitted over HF, turning individual messages into actionable situational awareness.<br><br>
+        CommStat is built for operators and groups who need clarity, coordination, and continuity when communications matter most.<br><br>
+        
+        <b>Visit the Commstat website here</b>: <a href="https://commstat-improved.com/">https://commstat-improved.com/</a></p>
+        <br>';
 
 
-    <h2>Clarification on the JS8Call Name and Project Organization</h2>
+$html .=  '<div class="banner shadow">Clarification on the JS8Call Name and Project Organization</div>
     <p>We want to clear up some recent confusion regarding the JS8Call name, the JS8Call-Improved organization, and recent version releases.</p>
     <p>For many years, the program was released under the name JS8Call, and development took place under the js8call organization.</p>
     <p>With the release of version 2.4.0, two changes occurred at the same time:

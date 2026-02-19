@@ -8,15 +8,18 @@ $html .= get_menu('Tools');
 $html .= '<div class="features-outer-box">
     <div class="features-inner-box">
     <div class="purple">
-    <div class="banner shadow">JS8 Spotter</div>
-    <div class="tools">
-        <img src="img/js8-spotter.png" class="shadow-video center-image"></a>
-        <h2>Fills The Gaps in The JS8Call Feature Set</h2>
-        <p><strong>Description: </strong>JS8 Spotter can help users sort and track band activity, send APRS messages more easily, view stations on an offline map, send custom automated responses, and even implement simple forms. Data is stored in an SQLite database file, which is easily accessed via <a href="https://www.sqlitestudio.pl/"> SQLiteStudio</a> (export features are also built-in to JS8Spotter, for easy save or copy without having to open the database file.) </p>
-        <p><span class="alert">Visit the JS8 Spotter Website here:</span> <a href="https://kf7mix.com/js8spotter.html">https://kf7mix.com/js8spotter</a> </p>
-    </div>
-    <br>
     
+    <div class="banner shadow">CommStat</div>
+    <a href="img/commstat-2-5-0.png"><img src="img/commstat-2-5-0.png" class="shadow-video center-image" width="640"></a>
+    <br>
+    <br>
+    <a href="img/commstat-0001.png"><img src="img/commstat-0001.png" class="shadow-video center-image" width="640"></a>
+    <h2>CommStat is a Companion App Developed For Use With JS8Call</h2>
+    <p><strong>CommStat</strong> allows operators to send and receive standardized status <strong>reports (STATREPs)</strong> over the radio, and then <strong>compile, visualize, and map the locations and activity of participating stations</strong> that have submitted those reports. CommStat enhances situational awareness in a JS8Call network by providing reporting, tracking, and mapping functions that support coordinated communications among a group of operators.</p>
+    <p><span class="alert">CommStat Website:</span> Visit the CommStat website here: <a href="https://commstat-improved.com/">https://commstat-improved.com/</a> </p>
+    <br>
+    <br>
+
     <div class="banner shadow">QRZ Client</div>
     <div class="tools">
         <img src="img/qrz-client.png" class="center-image">
@@ -71,14 +74,16 @@ $html .= '<div class="features-outer-box">
 </p>
 </div>
 <br>
-<div class="banner shadow">CommStat-Improved</div>
-<a href="img/commstat-2-5-0.png"><img src="img/commstat-2-5-0.png" class="shadow-video center-image" width="640"></a>
-<br>
-<br>
-<a href="img/commstat-0001.png"><img src="img/commstat-0001.png" class="shadow-video center-image" width="640"></a>
-<h2>A Companion App Developed For Use With JS8Call</h2>
-<p><strong>CommStat</strong> allows operators to send and receive standardized status <strong>reports (STATREPs)</strong> over the radio, and then <strong>compile, visualize, and map the locations and activity of participating stations</strong> that have submitted those reports. The tool (a Python-based program) enhances situational awareness in a JS8Call network by providing reporting, tracking, and mapping functions that support coordinated communications among a group of operators.</p>
-<p><span class="alert">Note:</span> Instructions and download links coming soon. (Updated: December 21, 2025)</p>
+
+<div class="banner shadow">JS8 Spotter</div>
+    <div class="tools">
+        <img src="img/js8-spotter.png" class="shadow-video center-image"></a>
+        <h2>Fills The Gaps in The JS8Call Feature Set</h2>
+        <p><strong>Description: </strong>JS8 Spotter can help users sort and track band activity, send APRS messages more easily, view stations on an offline map, send custom automated responses, and even implement simple forms. Data is stored in an SQLite database file, which is easily accessed via <a href="https://www.sqlitestudio.pl/"> SQLiteStudio</a> (export features are also built-in to JS8Spotter, for easy save or copy without having to open the database file.) </p>
+        <p><span class="alert">Visit the JS8 Spotter Website here:</span> <a href="https://kf7mix.com/js8spotter.html">https://kf7mix.com/js8spotter</a> </p>
+    </div>
+    <br>
+
 </div>
 </div>
 </div>';
