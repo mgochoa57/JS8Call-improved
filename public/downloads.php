@@ -1,6 +1,6 @@
 <?php
 include '../scripts/html_tools.php';
-
+#Js8Call BubSpace:  https://github.com/avantol?tab=repositories
 $html = file_get_contents(__DIR__.'/../templates/header.html');
 $html .= file_get_contents(__DIR__.'/../templates/logo-div.html');
 $html .= get_menu('Downloads');
@@ -12,8 +12,8 @@ $html .= '<div class="features-outer-box">
     <div style="display: flex; gap: 100px;"><a href="https://github.com/JS8Call-improved/JS8Call-improved/releases/latest/download/JS8Call_User_Guide.pdf"><img class="shadow" src="img/JS8Call_Guide.jpg" height="300" alt="User Guide"></a>
       <div>
         <h2>Important Note About The JS8Call User Guide</h2>
-        <p>JS8Call version 2.2.0 and this user guide were originally released in June 2020. No official program updates were published again until version 2.3.0, which was released in June 2025. The development team is currently working on an updated user guide; until then, this document remains the most recent version available. While some links in the guide are no longer active, the content is still relevant and provides solid foundational training for using JS8Call.</p>
-        <p><span class="alert">Download version 2.2.0 of the User Guide Here:</span> <a href="https://github.com/JS8Call-improved/JS8Call-improved/releases/latest/download/JS8Call_User_Guide.pdf">JS8Call User Guide</a> </p>
+        <p>JS8Call version 2.2.0 and the user guide were originally released in June 2020. No official program updates were published again until version 2.3.0, which was released in June 2025. The development team is currently working on an updated user guide; this is the latest version.</p>
+        <p><span class="alert">Download version 2.6 of the User Guide Here:</span> <a href="https://js8call-improved.github.io/JS8Call-improved/d6/d14/md_docs_2user__guide_2JS8Call__User__Guide.html">JS8Call User Guide</a> </p>
       </div>
     </div>
     <br>
@@ -21,11 +21,11 @@ $html .= '<div class="features-outer-box">
     <div class="banner shadow">Download Links For JS8Call Version 2.5.2</div>
     <table style="font-family: \'Kode Mono\', monospace;">
     <tr style=" font-weight: bold; color: #000000; background-color: #f7fff7; "><td>Filename</td><td>Comment</td><td>Published</td></tr>
-    <tr><td><a href="https://github.com/JS8Call-improved/JS8Call-improved/releases/download/release%2F2.5.2/JS8Call-2.5.2-arm64.AppImage">JS8Call-2.5.2-arm64.AppImage</a> </td><td>Linux ARM64</td><td>Jan 28, 2026</td></tr>
-    <tr><td><a href="https://github.com/JS8Call-improved/JS8Call-improved/releases/download/release%2F2.5.2/JS8Call-2.5.2-installer.exe">JS8Call-2.5.2-installer.exe</a> </td><td>Windows x86_64</td><td>Jan 28, 2026</td></tr>
-    <tr><td><a href="https://github.com/JS8Call-improved/JS8Call-improved/releases/download/release%2F2.5.2/JS8Call-2.5.2-x86_64.AppImage">JS8Call-2.5.2-x86_64.AppImage</a> </td><td>Linux	x86_64 (AMD64)</td><td>Jan 28, 2026</td></tr>
-    <tr><td><a href="https://github.com/JS8Call-improved/JS8Call-improved/releases/download/release%2F2.5.2/JS8Call_2.5.2_arm64.dmg">JS8Call_2.5.2_arm64.dmg</a> </td><td>Mac OS - ARM64 (Apple Silicon)</td><td>Jan 28, 2026</td></tr>
-    <tr><td><a href="https://github.com/JS8Call-improved/JS8Call-improved/releases/download/release%2F2.5.2/JS8Call_2.5.2_universal.dmg">JS8Call_2.5.2_universal.dmg</a> </td><td>Mac OS - Universal (Intel + Apple Silicon)</td><td>Jan 28, 2026</td></tr>
+    <tr><td><a href="https://github.com/JS8Call-improved/JS8Call-improved/releases/download/release%2F2.5.2/JS8Call-2.5.2-installer.exe">JS8Call-2.5.2-installer.exe</a> </td><td>Windows x86_64</td><td>Jan 14, 2026</td></tr>
+    <tr><td><a href="https://github.com/JS8Call-improved/JS8Call-improved/releases/download/release%2F2.5.2/JS8Call_2.5.2_AppleSilicon.dmg">JS8Call_2.5.2_AppleSilicon.dmg</a> </td><td>Mac (Apple Silicon)</td><td>Jan 14, 2026</td></tr>
+    <tr><td><a href="https://github.com/JS8Call-improved/JS8Call-improved/releases/download/release%2F2.5.2/JS8Call_2.5.2_Intel.dmg">JS8Call_2.5.2_Intel.dmg</a> </td><td>Mac (Intel)</td><td>Jan 14, 2026</td></tr>
+    <tr><td><a href="https://github.com/JS8Call-improved/JS8Call-improved/releases/download/release%2F2.5.2/JS8Call-2.5.2-x86_64.AppImage">JS8Call-2.5.2-x86_64.AppImage</a> </td><td>Linux	x86_64 (AMD64)</td><td>Jan 14, 2026</td></tr>
+    <tr><td><a href="https://github.com/JS8Call-improved/JS8Call-improved/releases/download/release%2F2.5.2/JS8Call-2.5.2-arm64.AppImage">JS8Call-2.5.2-arm64.AppImage</a> </td><td>Linux ARM64</td><td>Jan 14, 2026</td></tr>
     <tr><td><a href="https://github.com/JS8Call-improved/Android-port/releases/download/1.0-RC1/JS8Android-1.0-RC1.apk">JS8Android-1.0-RC1.apk</a> </td><td>Android Release Candidate 1</td><td>Feb 13, 2026</td></tr>
     </table>
     <p><span class="alert">Note</span>: for SHA-256 checksums, licensing information, source code, release history, and to report issues or contribute to development, please visit the JS8Call repository on Github: <a href="https://github.com/JS8Call-improved/JS8Call-improved">https://github.com/JS8Call-improved/JS8Call-improved</a>.</p>

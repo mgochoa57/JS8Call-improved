@@ -27,10 +27,15 @@ function get_menu($selection)
     <a href="/downloads.php" style="text-decoration:none; color: #000000;">$downloads</a>
     <a href="/training.php" style="text-decoration:none; color:#000000;">$training</a>
     <a href="/tools.php" style="text-decoration:none; color:#000000;">$tools</a>
+    <a href="https://js8call-improved.github.io/JS8Call-improved/" style="text-decoration:none; color:#000000;">Code Resources</a>
+    <a href="https://js8call.groups.io/g/main" style="text-decoration:none; color:#000000;">Forum</a>
+    
     </div>
 EOT;
     return $data;
 }
+
+
 function build_welcome_message()
 {
     // URL of the raw version.txt file
