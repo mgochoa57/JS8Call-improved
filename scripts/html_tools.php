@@ -71,13 +71,12 @@ function build_welcome_message()
         </p>
     
         <p style="margin-top:16px; font-size:16px;">
-          Comments, questions, or suggestions? Email:
-          <br>
-          <a href="mailto:js8call-improved@proton.me"
-             style="text-decoration:none; color:#0000ee;">
-            js8call-improved@proton.me
-          </a>
-        </p>
+                Comments, questions, or suggestions? Post to the Discussions list:
+                <br>
+                <a href="https://github.com/orgs/JS8Call-improved/discussions" target="_blank" style="text-decoration:none; color:#0000ee;">
+                    JS8Call GitHub Discussions
+                </a>
+            </p>
       </div>
     </div>
 EOT;
